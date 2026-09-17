@@ -12,6 +12,21 @@
 
 <br clear="both">
 
-<img data-importer="snake" src="https://raw.githubusercontent.com/Tremonzz/Tremonzz/snake-output/snake.svg" alt="Snake animation" />
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Tremonzz/Tremonzz/snake-output/github-snake-dark.svg"
+  />
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Tremonzz/Tremonzz/snake-output/github-snake.svg"
+  />
+
+  <img
+    alt="GitHub contribution snake animation"
+    src="https://raw.githubusercontent.com/Tremonzz/Tremonzz/snake-output/github-snake-dark.svg"
+  />
+</picture>
 
 ###
